@@ -1,0 +1,1 @@
+#README##To Do List WebpageThis repository contains a the code for a basic to do list website. There are some basic JavaScript and basic CSS animations. ##UsageWhen you are done with a task, you can left click to cross the item off the list, or right click to remove the item from the list all together. 

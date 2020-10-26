@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<!--Things to fix:
+*When you type everything is black until you press enter
+-->
+
+<html>
+
+<head>
+    <title>To Do List</title>
+    <link href="style.css" rel="stylesheet" type="text/css" >
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="title1" id="parent">
+                <b>To Do List</b><br>
+            
+            </div>
+        
+            <div class="date1" id="parent2">
+                <script>
+                    document.write(new Date().toDateString());
+                 </script>
+            </div>
+
+        </div>
+        <div class="mainbody">
+            <form id= "form">
+                <input type="text" id="input"
+                class="input" placeholder="Enter your task"
+                autocomplete="off"
+                />
+
+                <ul class="todos" id="todos" style="color: lime;">
+                    <!--This is where the inputs will be-->
+                </ul>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
